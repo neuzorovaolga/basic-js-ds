@@ -47,11 +47,3 @@ class Queue {
 module.exports = {
   Queue,
 };
-
-// queue.enqueue(1); // adds the element to the queue { value: 1, next: null}
-// const value3 = { value: 3, next: null };
-// queue.enqueue(3); // adds the element to the queue { value: 1, next: value3}
-// const value5 = { value: 5, next: null };
-// value3.next = value5;
-// queue.enqueue(5); // adds the element to the queue { value: 1, next: { value: 3, next: value5}}
-// queue.enqueue(6); // adds the element to the queue
